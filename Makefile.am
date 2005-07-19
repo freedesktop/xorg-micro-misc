@@ -23,8 +23,8 @@ FONT_DIR = misc
 FONT_FILES = \
 	micro
 
-BDF_FILES = $(foreach X, $(FONT_FILES), $(X).bdf)
-PCF_FILES = $(foreach X, $(FONT_FILES), $(X).pcf.gz)
+BDF_FILES = $(FONT_FILES:%=%.bdf)
+PCF_FILES = $(FONT_FILES:%=%.pcf.gz)
 
 SUFFIXES = .bdf .pcf.gz
 
