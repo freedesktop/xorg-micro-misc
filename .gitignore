@@ -8,3 +8,4 @@ configure
 install-sh
 micro.pcf.gz
 missing
+*~
