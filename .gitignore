@@ -9,3 +9,6 @@ install-sh
 micro.pcf.gz
 missing
 *~
+font-micro-misc-*.tar.*
+ChangeLog
+tags
